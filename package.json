@@ -1,0 +1,30 @@
+{
+  "name": "neurooptimize-plugin",
+  "displayName": "NeuroOptimize Plugin",
+  "description": "AI-powered Java optimization hints for @NeuroOptimize annotated methods",
+  "version": "0.0.1",
+  "publisher": "your-name",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": ["Programming Languages", "AI"],
+  "activationEvents": ["onLanguage:java"],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "java",
+        "extensions": [".java"],
+        "aliases": ["Java"]
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.90.0",
+    "typescript": "^5.0.0",
+    "vsce": "^2.12.1"
+  }
+}

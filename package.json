@@ -3,7 +3,7 @@
   "displayName": "NeuroOptimize Plugin",
   "description": "AI-powered Java optimization hints for @NeuroOptimize annotated methods",
   "version": "0.0.1",
-  "publisher": "your-name",
+  "publisher": "pranav0440",
   "engines": {
     "vscode": "^1.90.0"
   },
